@@ -1,0 +1,94 @@
+.mainContent div{
+  flex:1;
+  justify-content: center;
+  height: auto;
+  text-align: center;
+  font-size: 4vh;
+  align-self: center;
+}
+.countryHeading div{
+  flex:1;
+  justify-content: center;
+  line-height: 20vh;
+  height: 20vh;
+  text-align: center;
+  font-size: 3vh;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  
+}
+
+.countryList{
+  border: 2px solid green;
+  display: flex;
+  flex-wrap: wrap;
+}
+.countryHeading{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  height:20vh;
+  background-color: orange;
+  color: white;
+  font-size: 3vh;
+
+
+}
+.wrapper{
+  background-color: greenyellow;
+  display: flex;
+  height: 30vh;
+  justify-content:center;
+ flex-wrap: wrap;
+ 
+}
+.headtext{
+  font-size: 10vh;
+  padding: 4vh;
+  width: 100vw;
+  text-align: center; 
+}
+
+.searchbar{
+  display: flex;
+  align-content: space-around;
+}
+
+input{
+  width: 50vw;
+  height: auto;
+  text-align: center;
+  border : 5px solid blue;
+  border-radius:  10px;
+  margin-bottom: 10px;
+  
+}
+input[type=text]{
+  width:40vw;
+}
+input[type = button]{
+  width: 15vw;
+  height: auto;
+  margin-left: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 5vh;
+  border-radius: 30px;
+  padding: 0 20px 5px 10px;
+  
+}
+
+#sortArrow{
+  font-weight: 50vh;
+  font-size: 5vh;
+}
+a:hover{
+  color: white;
+  background-color: blue;
+  border: 3px solid white;
+}
